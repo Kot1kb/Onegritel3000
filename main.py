@@ -11,7 +11,7 @@ def Main():
 
     image_rgb = ba.convert("RGB")
 
-    brown_image = Image.blend(image_rgb, brown_overlay, alpha=0.1)
+    brown_image = Image.blend(image_rgb, brown_overlay, alpha=0.25)
 
     brown_image_l = brown_image.convert("L")
 
