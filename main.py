@@ -33,6 +33,3 @@ def Main():
 if __name__ == '__main__':
     print("start")
     Main()
-
-    #E:\hz\ря2\Onegritel3000\main.py
-    #"C:\Users\Asus\Downloads\smiley-man-wearing-white-shirt-medium-shot.jpg""C:\Users\Asus\Downloads\smiley-man-wearing-white-shirt-medium-shot.jpg"
