@@ -24,7 +24,7 @@ def Main():
     print(name)
     print(name.find(".png"))
     try:
-        if name.find(".png") > 0:
+        if name.find(".png") > 0 or name.find(".jpg") > 0 or name.find(".jpeg") > 0 or name.find(".svg") > 0 or name.find(".avif") > 0 or name.find(".webp") > 0:
             imn.save(name)
     except:
         print("something went wrong")
@@ -33,3 +33,6 @@ def Main():
 if __name__ == '__main__':
     print("start")
     Main()
+
+    #E:\hz\ря2\Onegritel3000\main.py
+    #"C:\Users\Asus\Downloads\smiley-man-wearing-white-shirt-medium-shot.jpg""C:\Users\Asus\Downloads\smiley-man-wearing-white-shirt-medium-shot.jpg"
